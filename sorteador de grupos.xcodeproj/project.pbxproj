@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C35AC0312503B38600EC5045 /* sorteador de grupos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sorteador de grupos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35AC0312503B38600EC5045 /* GroupSorter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupSorter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C35AC0342503B38600EC5045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C35AC0362503B38600EC5045 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C35AC0382503B38600EC5045 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		C35AC0322503B38600EC5045 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C35AC0312503B38600EC5045 /* sorteador de grupos.app */,
+				C35AC0312503B38600EC5045 /* GroupSorter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = "sorteador de grupos";
 			productName = "sorteador de grupos";
-			productReference = C35AC0312503B38600EC5045 /* sorteador de grupos.app */;
+			productReference = C35AC0312503B38600EC5045 /* GroupSorter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -287,12 +287,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8A3VLCQATV;
 				INFOPLIST_FILE = "sorteador de grupos/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bryanbarreto.sorteador-de-grupos";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GroupSorter;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,12 +306,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8A3VLCQATV;
 				INFOPLIST_FILE = "sorteador de grupos/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bryanbarreto.sorteador-de-grupos";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GroupSorter;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
